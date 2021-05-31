@@ -1,0 +1,69 @@
+<!--Tarea Generación Formulario Gastón Metayer Mayo-2021-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form method="POST">
+            <h2>Mi Formulario de Registro</h2>
+            <label for="Nombre">Nombre:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="Nombre" name="nombre">
+            <br>
+            <br>
+            <label for="Apellido">Apellido:</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="Apellido" name="Apellido">
+            <br>
+            <br>
+            <label for="EMail">EMail:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" id="EMail" name="EMail">
+            <br>
+            <br>
+            <label for="Pasword">Contraseña:</label>
+            <input type="password" id="Pasword" name="Pasword">
+            <br>
+            <br>
+            <label for="ConfirmarPasword">Confirmar:</label>&nbsp;&nbsp;
+            <input type="password" id="ConfirmarPasword" name="CopnfirmarPasword">
+            <br>
+            <br>
+            <label for="fecha">Cumpleaños:</label>
+            <input type="date" id="fecha" name="fecha">
+            <br>
+            <br>
+            <br>
+            <label for="Masculino">Hombre</label>
+            <input type="radio" id="Masculino" name="Sexo">
+            <label for="Femenino">Mujer</label>
+            <input type="radio" id="Femenino" name="Sexo">
+            <label for="Otro">Otro</label>
+            <input type="radio" id="Otro" name="Sexo">
+            <br>
+            <br>
+            <p>Una breve descripción de ti:</p>
+            <textarea name="descripcion" id="descripcion" cols="35" rows="6"></textarea>
+            <br>
+            <br>
+            <label for="lenguajes"> Lenguaje Favorito  </label>
+            <select name="lenguajes" id="lenguajes">
+                <option value="0">Seleccione un Lenguaje</option>
+                <option value="html">HTML</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="Phyton">PHYTON</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>

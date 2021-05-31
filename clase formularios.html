@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form method="POST">
+
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="nombre"><br>
+            <!--<input type="text" id="Nombre"(referencia al cuadro que recibe el dato para procesarlo) name="nombre" (recibe el dato para procesarlo posteriormente en una DB por ej.)>-->
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido" name="Apellido"><br>
+            <label for="Pasword">Pasword:</label>
+            <input type="password" id="Pasword" name="Pasword"> <br>
+            <label for="EMail">EMail:</label> &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" id="EMail" name="EMail"> <br>
+            <br>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+            <br>
+
+
+
+            <!--radio button, los agrupa por el "name"-->
+            <label for="Masculino">Masculino</label>
+            <input type="radio" id="Masculino" name="Sexo">
+            <label for="Femenino">Femenino</label>
+            <input type="radio" id="Femenino" name="Sexo">
+            <label for="Otro">Prefiero no Decir</label>
+            <input type="radio" id="Otro" name="Sexo">
+            <br>
+            <label for="verano">Verano</label>
+            <input type="checkbox" id="Verano" name="estaciones" value="verano">
+            <!--Value es el valor que se lleva al backend-->
+            <label for="otoño">Otoño</label>
+            <input type="checkbox" id="otoño" name="estaciones" value="otoño">
+            <label for="invierno">Invierno</label>
+            <input type="checkbox" id="invierno" name="estaciones" value="invierno">
+            <label for="primavera">Primavera</label>
+            <input type="checkbox" id="Primavera" name="estaciones" value="primavera"> <br>
+
+            <!--Select-->
+            <select name="lenguajes" id="lenguajes">
+                <option value="0">Seleccione un Lenguaje</option>
+                <option value="html">HTML</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="Phyton">PHYTON</option>
+            </select>
+            <br><br>
+            <textarea name="descripcion" id="descripcion" cols="10" rows="8"></textarea>
+            <br>
+            <input type="button" value="Enviar">
+            <!--boton submit, envío del formulario-->
+            <input type="submit">
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>

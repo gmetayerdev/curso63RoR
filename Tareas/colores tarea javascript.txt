@@ -1,0 +1,5 @@
+#1b345d azul
+#cf3036; rojo
+color: #c2d6ec; letra java
+#2a7d8c bloque derecho
+#0e1822 bloque negro
